@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/purple_500</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logoapplication</item>
+        <item name="postSplashScreenTheme">@style/Theme.Car_Rent_Yassine</item>
+    </style>
+    <style name="TextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#aacbb4</item>
+    </style>
+</resources>

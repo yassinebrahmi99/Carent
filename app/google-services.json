@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "338557981668",
+    "firebase_url": "https://carrentyassine-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "carrentyassine",
+    "storage_bucket": "carrentyassine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338557981668:android:ec92bdc40307efd6436df1",
+        "android_client_info": {
+          "package_name": "com.example.car_rent_yassine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338557981668-psd8evl8t3k5uffqiadaodh84g2k54r1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.car_rent_yassine",
+            "certificate_hash": "af384d13b1a744bff545edf4c74aaa1d92df5b52"
+          }
+        },
+        {
+          "client_id": "338557981668-cp1l4v0s0sl0rt3t29tl5pe3u1433cev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkgJDL9ehJji_0UPNK2RPWtrCta0qqKrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338557981668-cp1l4v0s0sl0rt3t29tl5pe3u1433cev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

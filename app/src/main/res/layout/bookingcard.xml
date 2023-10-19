@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview"
+    android:layout_margin="20dp"
+    android:elevation="30dp"
+app:cardBackgroundColor="@color/material_dynamic_tertiary90"    app:cardCornerRadius="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="16dp">
+
+            <!-- Title, secondary and supporting text -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/carname"
+                android:text="title"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="20dp"
+                android:id="@+id/email"
+                android:text="example@email.com"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="20dp"
+                android:id="@+id/duration"
+                android:text="21/2/2022 - 2/3/2022"
+                android:textStyle="italic"/>
+                />/
+
+        </LinearLayout>
+     <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+         <com.google.android.material.button.MaterialButton
+             android:id="@+id/delete"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Cancel" />
+
+     </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

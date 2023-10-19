@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <ListPreference
+            android:defaultValue="3"
+            android:dialogTitle="@string/remind_to_take_a_break1"
+            android:entries="@array/pref_remind_me_to_take_a_break"
+            android:entryValues="@array/pref_duration"
+            android:key="@string/key_upload_quality"
+            android:summary="Enabled"
+            android:title="@string/remind_to_take_a_break1" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="Darkmode"
+            android:summary="Enable dark mode"
+            android:title="Dark Mode" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/limit_data_usage"
+            android:summary="Only load high quality photos on wifi"
+            android:title="@string/limit_mobile_usage" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/double_tap_to_seek"
+            android:entries="@array/pref_seek_values"
+            android:entryValues="@array/pref_duration"
+            android:key="@string/pref_seek_val"
+            android:summary="Manage your credit cards"
+            android:title="Credit cards" />
+
+
+
+
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="Share data to make app better"
+            android:title="Share data to make app better" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
